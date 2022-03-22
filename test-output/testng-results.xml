@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111" started-at="2021-05-24T15:18:43Z" finished-at="2021-05-24T15:18:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111" started-at="2021-05-24T15:18:43Z" finished-at="2021-05-24T15:18:43Z">
+      <class name="DemoPack.Custmer">
+        <test-method status="PASS" signature="OpenBrowse()[pri:0, instance:DemoPack.Custmer@48eff760]" name="OpenBrowse" is-config="true" duration-ms="18" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowse -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:DemoPack.Custmer@48eff760]" name="LogIn" is-config="true" duration-ms="5" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="CreateCumtomer()[pri:0, instance:DemoPack.Custmer@48eff760]" name="CreateCumtomer" duration-ms="15" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCumtomer -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:DemoPack.Custmer@48eff760]" name="LogOut" is-config="true" duration-ms="0" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:DemoPack.Custmer@48eff760]" name="LogIn" is-config="true" duration-ms="1" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="EditCumtomer()[pri:5, instance:DemoPack.Custmer@48eff760]" name="EditCumtomer" duration-ms="1" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCumtomer -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:DemoPack.Custmer@48eff760]" name="LogOut" is-config="true" duration-ms="0" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:DemoPack.Custmer@48eff760]" name="LogIn" is-config="true" duration-ms="1" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="DeleteCumtomer()[pri:20, instance:DemoPack.Custmer@48eff760]" name="DeleteCumtomer" duration-ms="2" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCumtomer -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:DemoPack.Custmer@48eff760]" name="LogOut" is-config="true" duration-ms="1" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:DemoPack.Custmer@48eff760]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- DemoPack.Custmer -->
+      <class name="DemoPack.user">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:DemoPack.user@402f32ff]" name="createUser" duration-ms="1" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:DemoPack.user@402f32ff]" name="editUser" duration-ms="4" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:DemoPack.user@402f32ff]" name="deleteUser" duration-ms="1" started-at="2021-05-24T20:48:43Z" depends-on-methods="DemoPack.user.editUser" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- DemoPack.user -->
+      <class name="DemoPack.Report">
+        <test-method status="PASS" signature="CreateReport()[pri:0, instance:DemoPack.Report@573f2bb1]" name="CreateReport" duration-ms="2" started-at="2021-05-24T20:48:43Z" finished-at="2021-05-24T20:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+      </class> <!-- DemoPack.Report -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
